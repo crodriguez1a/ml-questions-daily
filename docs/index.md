@@ -10,16 +10,15 @@ Name the following machine learning task:
 - B) Regression
 - C) Structured output
 
-Answer: <input type="text" placeholder="Type your answer" id="day1_choice" name="day1_choice"/>
-<button type="submit" id="day1_submit" class="button">Send</button> 
-<div id="day1_feedback"></div>
+<input type="text" placeholder="Type your answer" id="day1_choice" name="day1_choice"/>
+<button type="submit" id="day1_submit" class="button">Send</button> <div id="day1_feedback"></div>
 
 <script>
 const selectAnswer = (answer, submit_id, choice_id, feedback_id) => {
   const feedback = document.getElementById(feedback_id)
   const choice = document.getElementById(choice_id);
   if (choice.value.toLowerCase() == answer) {
-    feedback.innerHTML = "Correct!"
+    feedback.innerHTML = "<strong>Correct!</strong>"
   } else {
     feedback.innerHTML = "Not quite...try again."
   }
