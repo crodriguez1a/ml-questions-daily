@@ -4,7 +4,7 @@ Name the following machine learning task:
 
 *"...the computer program is aksed to predict a numerical value given some input. To solve this task, the learning algorithm is asked output a function"*
 
-![day1_function1](images/Day1_Function1.png "Day 1 - Function 1")
+<div id="katex_day1"></div>
 
 - A) Classification
 - B) Regression
@@ -14,22 +14,30 @@ Name the following machine learning task:
 <button type="submit" id="day1_submit" class="button">Send</button> 
 <div id="day1_feedback"></div>
 
-<script>
-const selectAnswer = (answer, submit_id, choice_id, feedback_id) => {
-  const feedback = document.getElementById(feedback_id)
-  const choice = document.getElementById(choice_id);
-  if (choice.value.toLowerCase() == answer) {
-    feedback.innerHTML = "<strong>Correct!</strong>"
-  } else {
-    feedback.innerHTML = "Not quite...try again."
-  }
-}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
 
-const days = [[1,"b"]]
-for (let i in  days) {
-  [id, ans] =  days[i]
-  document.getElementById("day" + id + "_submit").addEventListener(("click"), () => {
-    selectAnswer(ans, "day" + id + "_submit", "day" + id + "_choice", "day" + id + "_feedback")
-  });
- }
+<script>
+  const selectAnswer = (answer, submit_id, choice_id, feedback_id) => {
+    const feedback = document.getElementById(feedback_id)
+    const choice = document.getElementById(choice_id);
+    if (choice.value.toLowerCase() == answer) {
+      feedback.innerHTML = "Correct!"
+    } else {
+      feedback.innerHTML = "Not quite...try again."
+    }
+  }
+
+  const days = [[1,"b", String.raw`f : \R^n \to \R`]]
+  for (let i in  days) {
+    [id, ans, formula] =  days[i]
+    document.getElementById("day" + id + "_submit").addEventListener(("click"), () => {
+      selectAnswer(ans, "day" + id + "_submit", "day" + id + "_choice", "day" + id + "_feedback")
+    });
+    const element = document.getElementById("katex_day" + id)
+    katex.render(formula, element, {
+      throwOnError: false
+    });
+  }
 </script>
+
