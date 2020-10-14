@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## Day 1
 
-You can use the [editor on GitHub](https://github.com/crodriguez1a/ml-questions-daily/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Name the following machine learning task:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+*"...the computer program is aksed to predict a numerical value given some input. To solve this task, the learning algorithm is asked output a function*
 
-### Markdown
+![day1_function1](images/Day1_Function1.png "Day 1 - Function 1")
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+- A) Classification
+- B) Regression
+- C) Structured output
 
-- Bulleted
-- List
+<input type="text" id="day1_answer_box" name="day1_answer_box"/>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/crodriguez1a/ml-questions-daily/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
