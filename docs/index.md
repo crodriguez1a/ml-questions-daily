@@ -28,6 +28,12 @@ This task predicts a numerical value given some input. To solve this task, the l
   .katex-formula {
     padding: 1em;
   }
+  button[type=submit] {
+    border-radius: 5px;
+  }
+  input {
+    padding: 5px;
+  }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
 
