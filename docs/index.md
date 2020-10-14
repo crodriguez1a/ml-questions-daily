@@ -1,8 +1,8 @@
 ## Day 1
 
-Name the following machine learning task:
+Identify the following machine learning task:
 
-*"...the computer program is aksed to predict a numerical value given some input. To solve this task, the learning algorithm is asked to output a function..."*
+This task predicts a numerical value given some input. To solve this task, the learning algorithm is asked to output a function:
 
 <div id="katex_day1" class="katex-formula"></div>
 
