@@ -6,11 +6,11 @@ Name the following machine learning task:
 
 <div id="katex_day1" class="katex-formula"></div>
 
+---
+
 - A) Classification
 - B) Regression
 - C) Structured output
-
----
 
 <input type="text" placeholder="Type your answer" id="day1_choice" name="day1_choice"/>
 <button type="submit" id="day1_submit" class="button">Send</button> 
