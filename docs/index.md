@@ -10,8 +10,8 @@ Name the following machine learning task:
 - B) Regression
 - C) Structured output
 
-Answer: <input type="text" placeholder="Z" id="day1_choice" name="day1_choice"/>
-<button type="submit" id="day1_submit" class="btn btn-success">Send</button> 
+Answer: <input type="text" placeholder="Type your answer" id="day1_choice" name="day1_choice"/>
+<button type="submit" id="day1_submit" class="button">Send</button> 
 <div id="day1_feedback"></div>
 
 
