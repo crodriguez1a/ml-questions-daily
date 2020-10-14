@@ -2,9 +2,9 @@
 
 Name the following machine learning task:
 
-*"...the computer program is aksed to predict a numerical value given some input. To solve this task, the learning algorithm is asked output a function"*
+*"...the computer program is aksed to predict a numerical value given some input. To solve this task, the learning algorithm is asked to output a function..."*
 
-<div id="katex_day1"></div>
+<div id="katex_day1" class="katex-formula"></div>
 
 - A) Classification
 - B) Regression
@@ -15,6 +15,13 @@ Name the following machine learning task:
 <div id="day1_feedback"></div>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+
+<style>
+  .katex-formula {
+    padding: 1em;
+  }
+</style>
+
 <script src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
 
 <script>
