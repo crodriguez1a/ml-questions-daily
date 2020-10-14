@@ -11,7 +11,8 @@ Name the following machine learning task:
 - C) Structured output
 
 <input type="text" placeholder="Type your answer" id="day1_choice" name="day1_choice"/>
-<button type="submit" id="day1_submit" class="button">Send</button> <div id="day1_feedback"></div>
+<button type="submit" id="day1_submit" class="button">Send</button> 
+<div id="day1_feedback"></div>
 
 <script>
 const selectAnswer = (answer, submit_id, choice_id, feedback_id) => {
