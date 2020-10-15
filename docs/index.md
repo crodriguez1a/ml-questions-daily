@@ -16,6 +16,7 @@ This task predicts a numerical value given some input. To solve this task, the l
 <button type="submit" id="day1_submit" class="button">Send</button> 
 <div id="day1_feedback"></div>
 
+#### Resources
 - [https://machinelearningmastery.com/types-of-learning-in-machine-learning/](https://machinelearningmastery.com/types-of-learning-in-machine-learning/)
 
 - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
