@@ -36,27 +36,18 @@ This task predicts a numerical value given some input. To solve this task, the l
   input {
     padding: 5px;
   }
-  .hide-resources {
-    display: none;
-  }
-  .hide-resources.not-hidden {
-    display: block;
-  }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
 
 <script>
-  const selectAnswer = (answer, submit_id, choice_id, feedback_id, resources_id) => {
+  const selectAnswer = (answer, submit_id, choice_id, feedback_id) => {
     const feedback = document.getElementById(feedback_id)
     const choice = document.getElementById(choice_id);
-    const resources = document.getElementById(resources_id)
     if (choice.value.toLowerCase() == answer) {
       feedback.innerHTML = "Correct!"
     } else {
       feedback.innerHTML = "Not quite."
     }
-    resources.classList.add("not-hidden");
-    console.log(resources.classList)
   }
 
   const days = [
@@ -65,7 +56,7 @@ This task predicts a numerical value given some input. To solve this task, the l
   for (let i in  days) {
     [id, ans, formula] =  days[i]
     document.getElementById("day" + id + "_submit").addEventListener(("click"), () => {
-      selectAnswer(ans, "day" + id + "_submit", "day" + id + "_choice", "day" + id + "_feedback", "day" + id + "_resources")
+      selectAnswer(ans, "day" + id + "_submit", "day" + id + "_choice", "day" + id + "_feedback")
     });
     
     katex.render(formula, document.getElementById("katex_day" + id), {
