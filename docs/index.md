@@ -15,7 +15,10 @@ This task predicts a numerical value given some input. To solve this task, the l
 <input type="text" placeholder="Type your answer" id="day1_choice" name="day1_choice"/>
 <button type="submit" id="day1_submit" class="button">Send</button> 
 <div id="day1_feedback"></div>
-
+<div id="day1_resources" class="hide-resources">
+- [https://machinelearningmastery.com/types-of-learning-in-machine-learning/](https://machinelearningmastery.com/types-of-learning-in-machine-learning/)
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+</div>
 ---
 
 
@@ -34,28 +37,39 @@ This task predicts a numerical value given some input. To solve this task, the l
   input {
     padding: 5px;
   }
+  .hide-resources {
+    display: none;
+  }
+  .hide-resources.not-hidden {
+    display: block;
+  }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
 
 <script>
-  const selectAnswer = (answer, submit_id, choice_id, feedback_id) => {
+  const selectAnswer = (answer, submit_id, choice_id, feedback_id, resources_id) => {
     const feedback = document.getElementById(feedback_id)
     const choice = document.getElementById(choice_id);
+    const resources = document.getElementById(resources_id)
     if (choice.value.toLowerCase() == answer) {
       feedback.innerHTML = "Correct!"
     } else {
       feedback.innerHTML = "Not quite...try again."
     }
+    resources.classList.add("not-hidden");
+    console.log(resources.classList)
   }
 
-  const days = [[1,"b", String.raw`f : \R^n \to \R`]]
+  const days = [
+    [1,"b", String.raw`f : \R^n \to \R`],
+  ]
   for (let i in  days) {
     [id, ans, formula] =  days[i]
     document.getElementById("day" + id + "_submit").addEventListener(("click"), () => {
-      selectAnswer(ans, "day" + id + "_submit", "day" + id + "_choice", "day" + id + "_feedback")
+      selectAnswer(ans, "day" + id + "_submit", "day" + id + "_choice", "day" + id + "_feedback", "day" + id + "_resources")
     });
-    const element = document.getElementById("katex_day" + id)
-    katex.render(formula, element, {
+    
+    katex.render(formula, document.getElementById("katex_day" + id), {
       throwOnError: false
     });
   }
