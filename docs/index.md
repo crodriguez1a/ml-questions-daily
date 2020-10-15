@@ -17,7 +17,9 @@ This task predicts a numerical value given some input. To solve this task, the l
 <div id="day1_feedback"></div>
 
 - [https://machinelearningmastery.com/types-of-learning-in-machine-learning/](https://machinelearningmastery.com/types-of-learning-in-machine-learning/)
+
 - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
 ---
 
 
