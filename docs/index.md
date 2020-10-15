@@ -15,10 +15,13 @@ This task predicts a numerical value given some input. To solve this task, the l
 <input type="text" placeholder="Type your answer" id="day1_choice" name="day1_choice"/>
 <button type="submit" id="day1_submit" class="button">Send</button> 
 <div id="day1_feedback"></div>
-<div id="day1_resources" class="hide-resources">
-- [https://machinelearningmastery.com/types-of-learning-in-machine-learning/](https://machinelearningmastery.com/types-of-learning-in-machine-learning/)
-- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
-</div>
+
+<details id="day1_resources" class="hide-resources">
+  <summary>Resources</summary>
+  
+  - [https://machinelearningmastery.com/types-of-learning-in-machine-learning/](https://machinelearningmastery.com/types-of-learning-in-machine-learning/)
+  - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+</details>
 ---
 
 
@@ -54,7 +57,7 @@ This task predicts a numerical value given some input. To solve this task, the l
     if (choice.value.toLowerCase() == answer) {
       feedback.innerHTML = "Correct!"
     } else {
-      feedback.innerHTML = "Not quite...try again."
+      feedback.innerHTML = "Not quite."
     }
     resources.classList.add("not-hidden");
     console.log(resources.classList)
