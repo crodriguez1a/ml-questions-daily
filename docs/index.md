@@ -53,7 +53,7 @@ Distinguish between these two machine learning algorithms:
 Which of the following is **not** a machine learning technique:
 
 - A) Supervised Learning
-- B) Unspervised Learning
+- B) Unsupervised Learning
 - C) Semi-supervised Learning
 - D) Reinforcement Learning
 - E) Hyper Learning
