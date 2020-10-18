@@ -68,6 +68,24 @@ Which of the following is **not** a machine learning technique:
 
 - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
 
+---
+
+## Day 4
+
+The ability for a machine learning model to perfrom well on previously unobserved inputs is called:
+
+- A) Capacity
+- B) Generilzation
+- C) Overfitting
+
+<input type="text" placeholder="Type your answer" id="day4_choice" name="day4_choice"/>
+<button type="submit" id="day4_submit" class="button">Send</button> 
+<div id="day4_feedback"></div>
+
+#### Resources
+- [https://medium.com/@qempsil0914/courseras-machine-learning-notes-week3-overfitting-and-regularization-partii-3e3f3f36a287](https://medium.com/@qempsil0914/courseras-machine-learning-notes-week3-overfitting-and-regularization-partii-3e3f3f36a287)
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
@@ -89,7 +107,6 @@ Which of the following is **not** a machine learning technique:
   const selectAnswer = (answer, submit_id, choice_id, feedback_id) => {
     const feedback = document.getElementById(feedback_id)
     const choice = document.getElementById(choice_id);
-    console.log(submit_id, choice.value)
     if (choice.value.toLowerCase() == answer) {
       feedback.innerHTML = "Correct!"
     } else {
@@ -100,7 +117,8 @@ Which of the following is **not** a machine learning technique:
   const days = [
     [1,"b", [String.raw`f : \R^n \to \R`]],
     [2,"c", [String.raw`x \in \R^n`, String.raw`\hat{x} \in \R^n`, String.raw`x`]],
-    [3,"e", []]
+    [3,"e", []],
+    [4,"b",[]]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
