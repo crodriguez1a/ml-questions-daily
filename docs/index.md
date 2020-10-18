@@ -72,10 +72,10 @@ Which of the following is **not** a machine learning technique:
 
 ## Day 4
 
-The ability for a machine learning model to perfrom well on previously unobserved inputs is called:
+The ability for a machine learning model to perform well on previously unobserved inputs is called:
 
 - A) Capacity
-- B) Generilzation
+- B) Generalization
 - C) Overfitting
 
 <input type="text" placeholder="Type your answer" id="day4_choice" name="day4_choice"/>
