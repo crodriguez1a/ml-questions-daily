@@ -93,7 +93,7 @@ The ability for a machine learning model to perform well on previously unobserve
 
 Define **Regularization**
 
-- A) Any modification we make to a learning algorithm that is intended to reduce its generalization error but not its tranining error
+- A) Any modification we make to a learning algorithm that is intended to reduce its generalization error but not its training error
 - B) A technique used to reduce the errors by fitting the function appropriately on the given training set and avoid overfitting
 - C) A technique used for tuning the function by adding an additional penalty term in the error function
 - D) All of the above
