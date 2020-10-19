@@ -87,6 +87,25 @@ The ability for a machine learning model to perform well on previously unobserve
 
 - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
 
+---
+
+## Day 5
+
+Define **Regularization**
+
+- A) Any modification we make to a learning algorithm that is intended to reduce its generalization error but not its tranining error
+- B) A technique used to reduce the errors by fitting the function appropriately on the given training set and avoid overfitting
+- C) A technique used for tuning the function by adding an additional penalty term in the error function
+- D) All of the above
+
+<input type="text" placeholder="Type your answer" id="day5_choice" name="day5_choice"/>
+<button type="submit" id="day5_submit" class="button">Send</button> 
+<div id="day5_feedback"></div>
+
+#### Resources
+- [https://towardsdatascience.com/regularization-an-important-concept-in-machine-learning-5891628907ea](https://towardsdatascience.com/regularization-an-important-concept-in-machine-learning-5891628907ea)
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
@@ -118,7 +137,8 @@ The ability for a machine learning model to perform well on previously unobserve
     [1,"b", [String.raw`f : \R^n \to \R`]],
     [2,"c", [String.raw`x \in \R^n`, String.raw`\hat{x} \in \R^n`, String.raw`x`]],
     [3,"e", []],
-    [4,"b",[]]
+    [4,"b",[]],
+    [5,"d",[]]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
