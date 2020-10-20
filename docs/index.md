@@ -114,7 +114,7 @@ Define **Regularization**
 Which of the following are true about a **validation set**?
 
 |Value| Description
-|----|----
+|----:|:----
 |1 | A validation set contains examples that the training algorithm does not observe 
 |2 | No example from the test set can be used in the validation set
 |3 | A validation set should always be constructed from the training set
