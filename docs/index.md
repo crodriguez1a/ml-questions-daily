@@ -120,6 +120,8 @@ Which of the following are true about a **validation set**?
 |3 | A validation set should always be constructed from the training set
 |4 | A validation set should always be constructed from the test set
 
+---
+
 - A) 1 and 2
 - B) 1, 2 and 3
 - C) 1 and 4
