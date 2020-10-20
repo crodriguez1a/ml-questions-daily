@@ -107,6 +107,33 @@ Define **Regularization**
 
 - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
 
+---
+
+### Day 6
+
+Which of the following are true about a **validation set**?
+
+|Value| Description
+|----|----
+|1 | A validation set contains examples that the training algorithm does not observe 
+|2 | No example from the test set can be used in the validation set
+|3 | A validation set should always be constructed from the training set
+|4 | A validation set should always be constructed from the test set
+
+- A) 1 and 2
+- B) 1, 2 and 3
+- C) 1 and 4
+
+<input type="text" placeholder="Type your answer" id="day6_choice" name="day6_choice"/>
+<button type="submit" id="day6_submit" class="button">Send</button> 
+<div id="day6_feedback"></div>
+
+#### Resources
+- [https://machinelearningmastery.com/difference-test-validation-datasets/](https://machinelearningmastery.com/difference-test-validation-datasets/)
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
   .katex-formula {
@@ -138,7 +165,8 @@ Define **Regularization**
     [2,"c", [String.raw`x \in \R^n`, String.raw`\hat{x} \in \R^n`, String.raw`x`]],
     [3,"e", []],
     [4,"b",[]],
-    [5,"d",[]]
+    [5,"d",[]],
+    [6,"b",[]]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
