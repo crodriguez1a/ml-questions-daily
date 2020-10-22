@@ -153,7 +153,7 @@ Which of the following techniques can be used to help compensate for small datas
 <div id="day7_feedback"></div>
 
 #### Resources
-- https://www.kdnuggets.com/2019/06/5-ways-lack-data-machine-learning.html
+- [https://www.kdnuggets.com/2019/06/5-ways-lack-data-machine-learning.html](https://www.kdnuggets.com/2019/06/5-ways-lack-data-machine-learning.html)
 
 - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
 
