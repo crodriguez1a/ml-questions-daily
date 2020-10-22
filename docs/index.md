@@ -135,6 +135,28 @@ Which of the following are true about a **validation set**?
 
 - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
 
+---
+
+### Day 7
+
+Which of the following techniques can be used to help compensate for small datasets?
+
+- A) K-Fold cross-validation
+- B) Using a simple classifier less susceptible to overfitting
+- C) Use ensemble methods where voting between classifiers may compensate for over-learning
+- D) Apply Transfer Learning
+- E) Apply data augmentation
+- F) All of the above
+
+<input type="text" placeholder="Type your answer" id="day7_choice" name="day7_choice"/>
+<button type="submit" id="day7_submit" class="button">Send</button> 
+<div id="day7_feedback"></div>
+
+#### Resources
+- https://www.kdnuggets.com/2019/06/5-ways-lack-data-machine-learning.html
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
@@ -168,7 +190,8 @@ Which of the following are true about a **validation set**?
     [3,"e", []],
     [4,"b",[]],
     [5,"d",[]],
-    [6,"b",[]]
+    [6,"b",[]],
+    [7,"f", []]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
