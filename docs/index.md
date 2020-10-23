@@ -157,6 +157,25 @@ Which of the following techniques can be used to help compensate for small datas
 
 - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
 
+---
+
+### Day 8
+
+It is common to say that algorithm *A* is better than algorithm *B* if the upper bound of the 95 percent conﬁdence interval for the error of algorithm *A* is less than the lower bound of the 95 percent conﬁdence interval for the error of algorithm *B*
+
+- A) True
+- B) False
+
+<input type="text" placeholder="Type your answer" id="day8_choice" name="day8_choice"/>
+<button type="submit" id="day8_submit" class="button">Send</button> 
+<div id="day8_feedback"></div>
+
+#### Resources
+
+- [https://machinelearningmastery.com/calculate-the-bias-variance-trade-off/](https://machinelearningmastery.com/calculate-the-bias-variance-trade-off/)
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
@@ -191,7 +210,8 @@ Which of the following techniques can be used to help compensate for small datas
     [4,"b",[]],
     [5,"d",[]],
     [6,"b",[]],
-    [7,"f", []]
+    [7,"f", []],
+    [8,"a", []]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
