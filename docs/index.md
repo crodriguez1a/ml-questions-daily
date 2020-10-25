@@ -1,4 +1,4 @@
-## Day 1
+## [Day 1](#day1)
 
 Identify the following machine learning task:
 
@@ -21,7 +21,7 @@ This task predicts a numerical value given some input. To solve this task, the l
 
 ---
 
-## Day 2
+## [Day 2](#day2)
 
 Distinguish between these two machine learning algorithms:
 
@@ -48,7 +48,7 @@ Distinguish between these two machine learning algorithms:
 
 ---
 
-## Day 3
+## [Day 3](#day3)
 
 Which of the following is **not** a machine learning technique:
 
@@ -70,7 +70,7 @@ Which of the following is **not** a machine learning technique:
 
 ---
 
-## Day 4
+## [Day 4](#day4)
 
 The ability for a machine learning model to perform well on previously unobserved inputs is called:
 
@@ -89,7 +89,7 @@ The ability for a machine learning model to perform well on previously unobserve
 
 ---
 
-## Day 5
+## [Day 5](#day5)
 
 Define **Regularization**
 
@@ -109,7 +109,7 @@ Define **Regularization**
 
 ---
 
-### Day 6
+### [Day 6](#day6)
 
 Which of the following are true about a **validation set**?
 
@@ -137,7 +137,7 @@ Which of the following are true about a **validation set**?
 
 ---
 
-### Day 7
+### [Day 7](#day7)
 
 Which of the following techniques can be used to help compensate for small datasets?
 
@@ -159,7 +159,7 @@ Which of the following techniques can be used to help compensate for small datas
 
 ---
 
-### Day 8
+### [Day 8](#day8)
 
 It is common to say that algorithm *A* is better than algorithm *B* if the upper bound of the 95 percent conﬁdence interval for the error of algorithm *A* is less than the lower bound of the 95 percent conﬁdence interval for the error of algorithm *B*
 
