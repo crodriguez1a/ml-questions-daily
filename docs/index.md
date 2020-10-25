@@ -176,6 +176,30 @@ It is common to say that algorithm *A* is better than algorithm *B* if the upper
 
 - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
 
+---
+
+## [Day 9](#day9)
+
+Distinguish between these two statistical approaches:
+
+|1|2
+|-----|-----
+| This approach is based on estimating a single value of <span id="katex_day2_0" class="katex-formula"></span>, then making all predictions thereafter based on one estimate | This approach is to consider all possible values of <span id="katex_day2_2"></span> when making a prediction.
+
+---
+
+- A) 1 Frequentist Statistics, 2 Bayesian Statistics
+- B) 1 Bayesian Statistics, 2 Frequentist Statistics
+- C) 1 Einstein Statistics, 2 Bayesian Statistics
+
+<input type="text" placeholder="Type your answer" id="day9_choice" name="day9_choice"/>
+<button type="submit" id="day9_submit" class="button">Send</button> 
+<div id="day9_feedback"></div>
+
+#### Resources
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
@@ -211,7 +235,8 @@ It is common to say that algorithm *A* is better than algorithm *B* if the upper
     [5,"d",[]],
     [6,"b",[]],
     [7,"f", []],
-    [8,"a", []]
+    [8,"a", []],
+    ["9", "a", [String.raw`\theta`, String.raw`\theta`]]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
