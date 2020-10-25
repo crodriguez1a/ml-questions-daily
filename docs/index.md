@@ -184,7 +184,7 @@ Distinguish between these two statistical approaches:
 
 |1|2
 |-----|-----
-| This approach is based on estimating a single value of <span id="katex_day2_0" class="katex-formula"></span>, then making all predictions thereafter based on one estimate | This approach is to consider all possible values of <span id="katex_day2_2"></span> when making a prediction.
+| This approach is based on estimating a single value of <span id="katex_day9_0" class="katex-formula"></span>, then making all predictions thereafter based on one estimate | This approach is to consider all possible values of <span id="katex_day9_1"></span> when making a prediction.
 
 ---
 
@@ -226,7 +226,8 @@ Distinguish between these two statistical approaches:
       feedback.innerHTML = "Not quite."
     }
   }
-
+  
+  // TODO: consider moving to data-attrs for katex
   const days = [
     [1,"b", [String.raw`f : \R^n \to \R`]],
     [2,"c", [String.raw`x \in \R^n`, String.raw`\hat{x} \in \R^n`, String.raw`x`]],
