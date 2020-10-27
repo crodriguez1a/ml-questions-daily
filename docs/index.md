@@ -196,6 +196,19 @@ Distinguish between these two statistical approaches:
 <button type="submit" id="day9_submit" class="button">Send</button> 
 <div id="day9_feedback"></div>
 
+---
+
+## [Day 10](#day10)
+
+Unlike logistic regression, the support vector machine (SVM) does not provide probabilities, but only outputs a class identity.
+
+- A) True
+- B) False
+
+<input type="text" placeholder="Type your answer" id="day10_choice" name="day10_choice"/>
+<button type="submit" id="day10_submit" class="button">Send</button> 
+<div id="day10_feedback"></div>
+
 #### Resources
 
 - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
@@ -237,7 +250,8 @@ Distinguish between these two statistical approaches:
     [6,"b",[]],
     [7,"f", []],
     [8,"a", []],
-    ["9", "a", [String.raw`\theta`, String.raw`\theta`]]
+    [9, "a", [String.raw`\theta`, String.raw`\theta`]],
+    [10, "a", []]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
