@@ -196,6 +196,10 @@ Distinguish between these two statistical approaches:
 <button type="submit" id="day9_submit" class="button">Send</button> 
 <div id="day9_feedback"></div>
 
+#### Resources
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
 ---
 
 ## [Day 10](#day10)
@@ -210,6 +214,8 @@ Unlike logistic regression, the support vector machine (SVM) does not provide pr
 <div id="day10_feedback"></div>
 
 #### Resources
+
+- [https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
 
 - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
 
