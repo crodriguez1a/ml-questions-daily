@@ -219,6 +219,20 @@ Unlike logistic regression, the support vector machine (SVM) does not provide pr
 
 - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
 
+---
+
+## [Day 11](#day11)
+
+The category of algorithms that employ the kernel trick is known as:
+
+- A) kernel machines
+- B) kernel methods
+- C) popcorn methods
+- D) Both A and B
+
+<input type="text" placeholder="Type your answer" id="day11_choice" name="day11_choice"/>
+<button type="submit" id="day11_submit" class="button">Send</button> 
+<div id="day11_feedback"></div>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
@@ -257,7 +271,8 @@ Unlike logistic regression, the support vector machine (SVM) does not provide pr
     [7,"f", []],
     [8,"a", []],
     [9, "a", [String.raw`\theta`, String.raw`\theta`]],
-    [10, "a", []]
+    [10, "a", []],
+    [11, "d", []]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
