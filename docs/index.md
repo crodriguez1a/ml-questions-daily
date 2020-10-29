@@ -234,6 +234,21 @@ The category of algorithms that employ the kernel trick is known as:
 <button type="submit" id="day11_submit" class="button">Send</button> 
 <div id="day11_feedback"></div>
 
+---
+
+## [Day 12](#day12)
+
+When can supervised learning algorithms be useful:
+
+- A) When computational resources are constrained
+- B) When building intuition for more sophisticated learning algorithms
+- C) When annotations are reliable and consistent
+- D) All of the above
+
+<input type="text" placeholder="Type your answer" id="day12_choice" name="day12_choice"/>
+<button type="submit" id="day12_submit" class="button">Send</button> 
+<div id="day12_feedback"></div>
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
   .katex-formula {
@@ -272,7 +287,8 @@ The category of algorithms that employ the kernel trick is known as:
     [8,"a", []],
     [9, "a", [String.raw`\theta`, String.raw`\theta`]],
     [10, "a", []],
-    [11, "d", []]
+    [11, "d", []],
+    [12, "d", []]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
