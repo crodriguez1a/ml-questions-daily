@@ -234,6 +234,12 @@ The category of algorithms that employ the kernel trick is known as:
 <button type="submit" id="day11_submit" class="button">Send</button> 
 <div id="day11_feedback"></div>
 
+#### Resources
+
+- [https://machinelearningmastery.com/support-vector-machines-for-machine-learning/](https://machinelearningmastery.com/support-vector-machines-for-machine-learning/)
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
 ---
 
 ## [Day 12](#day12)
@@ -248,6 +254,12 @@ When can supervised learning algorithms be useful:
 <input type="text" placeholder="Type your answer" id="day12_choice" name="day12_choice"/>
 <button type="submit" id="day12_submit" class="button">Send</button> 
 <div id="day12_feedback"></div>
+
+### Resources
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
+- [https://www.cloudfactory.com/data-labeling-guide](https://www.cloudfactory.com/data-labeling-guide)
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
