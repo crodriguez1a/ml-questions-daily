@@ -303,7 +303,7 @@ Which of the following techniques are **not** useful towards simplifying data re
 
 - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
 
-- [https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5](https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5)
+- [https://machinelearningmastery.com/sparse-matrices-for-machine-learning/](https://machinelearningmastery.com/sparse-matrices-for-machine-learning/)
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
