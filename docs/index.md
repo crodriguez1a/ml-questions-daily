@@ -284,6 +284,27 @@ Which of the following could be accomplished with unsupervised learning:
 
 - [https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5](https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5)
 
+---
+
+## [Day 14](#day14)
+
+Which of the following techniques are **not** useful towards simplifying data representation:
+
+- A) lower-dimenstional representation
+- B) sparse representation
+- C) dense representation
+- D) independent representation
+
+<input type="text" placeholder="Type your answer" id="day14_choice" name="day14_choice"/>
+<button type="submit" id="day14_submit" class="button">Send</button> 
+<div id="day14_feedback"></div>
+
+### Resources
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
+- [https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5](https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5)
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
   .katex-formula {
@@ -324,7 +345,8 @@ Which of the following could be accomplished with unsupervised learning:
     [10, "a", []],
     [11, "d", []],
     [12, "d", []],
-    [13, "f", []]
+    [13, "f", []],
+    [14, "c", []]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
