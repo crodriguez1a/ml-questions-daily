@@ -261,6 +261,29 @@ When can supervised learning algorithms be useful:
 
 - [https://www.cloudfactory.com/data-labeling-guide](https://www.cloudfactory.com/data-labeling-guide)
 
+---
+
+## [Day 13](#day13)
+
+Which of the following could be accomplished with unsupervised learning:
+
+- A) Density estimation
+- B) Distribution sampling
+- C) Data denoising
+- D) Finding a manifold where data lies near
+- E) Clustering into groups
+- F) All of the above
+
+<input type="text" placeholder="Type your answer" id="day13_choice" name="day13_choice"/>
+<button type="submit" id="day13_submit" class="button">Send</button> 
+<div id="day13_feedback"></div>
+
+### Resources
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
+- [https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5](https://towardsdatascience.com/manifolds-in-data-science-a-brief-overview-2e9dde9437e5)
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
   .katex-formula {
@@ -300,7 +323,8 @@ When can supervised learning algorithms be useful:
     [9, "a", [String.raw`\theta`, String.raw`\theta`]],
     [10, "a", []],
     [11, "d", []],
-    [12, "d", []]
+    [12, "d", []],
+    [13, "f", []]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
