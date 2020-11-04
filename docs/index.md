@@ -318,6 +318,8 @@ Which of the following are true about Principal Component Analysis:
 |3 | It learns a representation that has lower dimensionality than the original input
 |4 | It learns a representation whose elements have no linear correlation with each other
 
+---
+
 - A) 1 and 2 are true
 - B) 1 and 3 are true
 - C) All are true
