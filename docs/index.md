@@ -305,6 +305,52 @@ Which of the following techniques are **not** useful towards simplifying data re
 
 - [https://machinelearningmastery.com/sparse-matrices-for-machine-learning/](https://machinelearningmastery.com/sparse-matrices-for-machine-learning/)
 
+---
+
+## [Day 15](#day15)
+
+Which of the following are true about Principal Component Analysis:
+
+|Value| Description
+|----:|:----
+|1 | This algorithm provides a means of compressing data
+|2 | It is an unsupervised learning algorithm that learns a representation of data
+|3 | It learns a representation that has lower dimensionality than the original input
+|4 | It learns a representation whose elements have no linear correlation with each other
+
+- A) 1 and 2 are true
+- B) 1 and 3 are true
+- C) All are true
+
+<input type="text" placeholder="Type your answer" id="day15_choice" name="day15_choice"/>
+<button type="submit" id="day15_submit" class="button">Send</button> 
+<div id="day15_feedback"></div>
+
+### Resources
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
+- [https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/](https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/)
+
+---
+
+## [Day 16](#day16)
+
+To achieve full independence, a representation learning algorithm must also remove the nonlinear relationships between variables
+
+- A) True
+- B) False
+
+<input type="text" placeholder="Type your answer" id="day16_choice" name="day16_choice"/>
+<button type="submit" id="day16_submit" class="button">Send</button> 
+<div id="day16_feedback"></div>
+
+### Resources
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
+- [https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/](https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/)
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
   .katex-formula {
@@ -346,7 +392,9 @@ Which of the following techniques are **not** useful towards simplifying data re
     [11, "d", []],
     [12, "d", []],
     [13, "f", []],
-    [14, "c", []]
+    [14, "c", []],
+    [15, "c", []],
+    [16, "a", []]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
