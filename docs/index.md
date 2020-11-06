@@ -347,11 +347,28 @@ To achieve full independence, a representation learning algorithm must also remo
 <button type="submit" id="day16_submit" class="button">Send</button> 
 <div id="day16_feedback"></div>
 
+---
+
+## [Day 17](#day17)
+
+Which of these are true about p-vaue:
+
+- A) It can be defined as the probability of obtaining test results at least as extreme as the results actually observed
+- B) It represents how likely it is to get a particular result when the null hypothesis is assumed to be true. 
+- C) It is the probability of getting a sample like ours or more extreme than ours if the null hypothesis is correct
+- D) All of the above
+
+<input type="text" placeholder="Type your answer" id="day17_choice" name="day17_choice"/>
+<button type="submit" id="day17_submit" class="button">Send</button> 
+<div id="day17_feedback"></div>
+
 ### Resources
 
-- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+- [https://en.wikipedia.org/wiki/P-value](https://en.wikipedia.org/wiki/P-value)
 
-- [https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/](https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/)
+- [https://towardsdatascience.com/what-is-a-p-value-b9e6c207247f](https://towardsdatascience.com/what-is-a-p-value-b9e6c207247f)
+
+- [https://www.geeksforgeeks.org/p-value-in-machine-learning/#:~:text=P%2Dvalue%20helps%20us%20determine,the%20null%20hypothesis%20is%20correct.](https://www.geeksforgeeks.org/p-value-in-machine-learning/#:~:text=P%2Dvalue%20helps%20us%20determine,the%20null%20hypothesis%20is%20correct.)
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
@@ -396,7 +413,8 @@ To achieve full independence, a representation learning algorithm must also remo
     [13, "f", []],
     [14, "c", []],
     [15, "c", []],
-    [16, "a", []]
+    [16, "a", []],
+    [16, "d", []]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
