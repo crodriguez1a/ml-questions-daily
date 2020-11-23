@@ -244,7 +244,7 @@ The category of algorithms that employ the kernel trick is known as:
 
 ## [Day 12](#day12)
 
-When can supervised learning algorithms be useful:
+When can supervised learning algorithms be useful?
 
 - A) When computational resources are constrained
 - B) When building intuition for more sophisticated learning algorithms
@@ -265,7 +265,7 @@ When can supervised learning algorithms be useful:
 
 ## [Day 13](#day13)
 
-Which of the following could be accomplished with unsupervised learning:
+Which of the following could be accomplished with unsupervised learning?
 
 - A) Density estimation
 - B) Distribution sampling
@@ -309,7 +309,7 @@ Which of the following techniques are **not** useful towards simplifying data re
 
 ## [Day 15](#day15)
 
-Which of the following are true about Principal Component Analysis:
+Which of the following are true about Principal Component Analysis?
 
 |Value| Description
 |----:|:----
@@ -351,7 +351,7 @@ To achieve full independence, a representation learning algorithm must also remo
 
 ## [Day 17](#day17)
 
-Which of these are true about p-vaue:
+Which of these are true about p-value?
 
 - A) It can be defined as the probability of obtaining test results at least as extreme as the results actually observed
 - B) It represents how likely it is to get a particular result when the null hypothesis is assumed to be true. 
@@ -362,13 +362,26 @@ Which of these are true about p-vaue:
 <button type="submit" id="day17_submit" class="button">Send</button> 
 <div id="day17_feedback"></div>
 
+---
+
+## [Day 18](#day18)
+
+Which of the following is true regarding singular value decomposition (SVD) and PCA?
+
+- A) SVD is another name for PCA
+- B) SVD is an alternative derivation of the principal components
+- C) PCA and SVD are unrelated
+
+<input type="text" placeholder="Type your answer" id="day18_choice" name="day18_choice"/>
+<button type="submit" id="day18_submit" class="button">Send</button> 
+<div id="day18_feedback"></div>
+
 ### Resources
 
-- [https://en.wikipedia.org/wiki/P-value](https://en.wikipedia.org/wiki/P-value)
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
 
-- [https://towardsdatascience.com/what-is-a-p-value-b9e6c207247f](https://towardsdatascience.com/what-is-a-p-value-b9e6c207247f)
+- [https://jonathan-hui.medium.com/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491#:~:text=What%20is%20the%20difference%20between,PCA%20skips%20less%20significant%20components.](https://jonathan-hui.medium.com/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491#:~:text=What%20is%20the%20difference%20between,PCA%20skips%20less%20significant%20components.)
 
-- [https://www.geeksforgeeks.org/p-value-in-machine-learning/#:~:text=P%2Dvalue%20helps%20us%20determine,the%20null%20hypothesis%20is%20correct.](https://www.geeksforgeeks.org/p-value-in-machine-learning/#:~:text=P%2Dvalue%20helps%20us%20determine,the%20null%20hypothesis%20is%20correct.)
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
@@ -414,7 +427,8 @@ Which of these are true about p-vaue:
     [14, "c", []],
     [15, "c", []],
     [16, "a", []],
-    [16, "d", []]
+    [17, "d", []],
+    [18, "b", []]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
