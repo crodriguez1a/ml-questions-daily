@@ -393,6 +393,8 @@ Which of the following are advantages to using sparse representation(e.g. one ho
 |1 | A natural conveyance of the idea that all examples in the same cluster are similar to each other
 |2 | Confers the computational advantage that the entire representation may be captured by a single integer
 
+---
+
 - A) 1
 - B) 2
 - C) 1 and 2
