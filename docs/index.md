@@ -382,6 +382,33 @@ Which of the following is true regarding singular value decomposition (SVD) and 
 
 - [https://jonathan-hui.medium.com/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491#:~:text=What%20is%20the%20difference%20between,PCA%20skips%20less%20significant%20components.](https://jonathan-hui.medium.com/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491#:~:text=What%20is%20the%20difference%20between,PCA%20skips%20less%20significant%20components.)
 
+---
+
+## [Day 19](#day19)
+
+Which of the following are advantages to using sparse representation(e.g. one hot encoding) in a clustering algorithm?
+
+|Value| Description
+|----:|:----
+|1 | A natural conveyance of the idea that all examples in the same cluster are similar to each other
+|2 | Confers the computational advantage that the entire representation may be captured by a single integer
+
+- A) 1
+- B) 2
+- C) 1 and 2
+- D) Neither 1 or 2
+
+<input type="text" placeholder="Type your answer" id="day19_choice" name="day19_choice"/>
+<button type="submit" id="day19_submit" class="button">Send</button> 
+<div id="day19_feedback"></div>
+
+### Resources
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
+- [https://jonathan-hui.medium.com/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491#:~:text=What%20is%20the%20difference%20between,PCA%20skips%20less%20significant%20components.](https://jonathan-hui.medium.com/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491#:~:text=What%20is%20the%20difference%20between,PCA%20skips%20less%20significant%20components.)
+
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
@@ -428,7 +455,8 @@ Which of the following is true regarding singular value decomposition (SVD) and 
     [15, "c", []],
     [16, "a", []],
     [17, "d", []],
-    [18, "b", []]
+    [18, "b", []],
+    [19, "c", []]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
