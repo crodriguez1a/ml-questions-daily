@@ -408,6 +408,35 @@ Which of the following are advantages to using sparse representation(e.g. one ho
 
 - [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
 
+---
+
+## [Day 20](#day20)
+
+Which of the following are common difficulties pertaining to clustering?
+
+|Value| Description
+|----:|:----
+|1 | There is no single criterion that measures how well a clustering of the data corresponds to the real world
+|2 | There may be many different clusterings that all correspond well to some property
+|3 | It is possible to obtain a different, equally valid clustering not relveant to the task
+|4 | It is difficult to measure Euclidean distance from a cluster centroid to the member of the cluster
+
+---
+
+- A) 1,3
+- B) 1,2,3
+- C) 2,4
+- D) All
+
+<input type="text" placeholder="Type your answer" id="day20_choice" name="day20_choice"/>
+<button type="submit" id="day20_submit" class="button">Send</button> 
+<div id="day20_feedback"></div>
+
+### Resources
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
+- [https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/](https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/)
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
@@ -455,7 +484,8 @@ Which of the following are advantages to using sparse representation(e.g. one ho
     [16, "a", []],
     [17, "d", []],
     [18, "b", []],
-    [19, "c", []]
+    [19, "c", []],
+    [20, "b", []]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
