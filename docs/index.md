@@ -438,6 +438,45 @@ Which of the following are common difficulties pertaining to clustering?
 
 - [https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/](https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/)
 
+---
+
+## [Day 21](#day21)
+
+Nearly all of deep learning is powered by one very important algorithm: **stochastic gradient descent** (SGD).
+
+- A) True
+- B) False
+
+<input type="text" placeholder="Type your answer" id="day21_choice" name="day21_choice"/>
+<button type="submit" id="day21_submit" class="button">Send</button> 
+<div id="day21_feedback"></div>
+
+### Resources
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
+- [https://en.wikipedia.org/wiki/Stochastic_gradient_descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent)
+
+---
+
+## [Day 22](#day22)
+
+A recurring problem in machine learning is that large training sets are necessary for good generalization, but large training sets are also more computationally expensive.
+
+- A) False
+- B) True
+
+<input type="text" placeholder="Type your answer" id="day22_choice" name="day22_choice"/>
+<button type="submit" id="day22_submit" class="button">Send</button> 
+<div id="day22_feedback"></div>
+
+### Resources
+
+- [https://www.deeplearningbook.org/contents/ml.html](https://www.deeplearningbook.org/contents/ml.html)
+
+- [https://en.wikipedia.org/wiki/Stochastic_gradient_descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent)
+
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
 <style>
   .katex-formula {
@@ -485,7 +524,9 @@ Which of the following are common difficulties pertaining to clustering?
     [17, "d", []],
     [18, "b", []],
     [19, "c", []],
-    [20, "b", []]
+    [20, "b", []],
+    [21, "a", []],
+    [22, "b", []]
   ]
   for (let i in  days) {
     [id, ans, formulas] =  days[i]
