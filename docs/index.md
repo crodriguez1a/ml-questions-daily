@@ -1,3 +1,5 @@
+![rubik's cube](rubix.jpeg)
+
 ## [Day 1](#day1)
 
 Identify the following machine learning task:
