@@ -1,4 +1,4 @@
-![rubik's cube](rubix.jpeg)
+![rubik's cube](images/rubix.jpeg)
 
 ## [Day 1](#day1)
 
